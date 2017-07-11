@@ -1,0 +1,23 @@
+page-non-bank {
+    .home-page-items {
+        border: none;
+        list-style: none;
+        background-color: red;
+    }
+
+    .text-md {
+        font-family: tahoma;
+        font-size: .9em;
+        font-weight: bold;
+    }
+
+    .text-sm {
+        font-family: tahoma;
+        font-size: .7em;
+        font-weight: lighter;
+    }
+    
+    .float-right {
+        float: right;
+    }
+}

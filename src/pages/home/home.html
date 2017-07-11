@@ -1,17 +1,37 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title><img src="../../assets/pbs_title.jpg"></ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+  <h2>All Things Anti-Money Laundering</h2>
+  <ion-list class="home-page-items">
+    <ion-item class="home-page-item">
+      <ion-icon name="md-home" class="home-page-icons"></ion-icon>
+      <div (click)="gotoPage('financial')">
+        <ion-icon name="ios-arrow-forward-outline" class="float-right"></ion-icon>
+        <div class="text-md">Financial Institutions</div>
+        <div class="text-sm">Audits, validations, risk assessments & look-backs</div>
+      </div>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="md-laptop" class="home-page-icons"></ion-icon>
+      <div (click)="gotoPage('technology')">
+        <ion-icon name="ios-arrow-forward-outline" class="float-right"></ion-icon>
+        <div class="text-md">Bank Technology Providers</div>
+        <div class="text-sm">AML, OFAC & fraud detection consulting</div>
+      </div>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="md-cash" class="home-page-icons"></ion-icon>
+      <div (click)="gotoPage('non-bank')">
+        <ion-icon name="ios-arrow-forward-outline" class="float-right"></ion-icon>
+        <div class="text-md">Non-Bank Organizations</div>
+        <div class="text-sm">Custom AML/OFAC Programs, audits, & training</div>
+      </div>
+    </ion-item>
+  </ion-list>
 </ion-content>

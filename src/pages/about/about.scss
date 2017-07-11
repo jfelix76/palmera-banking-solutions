@@ -1,3 +1,24 @@
 page-about {
-
+    .float-right {
+        float: right;
+    }
+    .float-left {
+        float: left;
+    }
+    .border-light {
+        border: lightgray 1px solid;
+    }
+    .centered {
+        text-align: center;
+    }
+    .padding-sm-right {
+        padding: 1opx;
+    }
+    .margin-sm-left {
+        margin: 10px;
+    }
+    .text-md-bold {
+        font-size: 1em;
+        font-weight: bold;
+    }
 }

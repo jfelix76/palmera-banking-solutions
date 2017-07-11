@@ -25198,3 +25198,159 @@ ion-navbar.toolbar {
     padding-top: calc(16px + 20px);
   }
 }
+
+.toolbar-background-md {
+  background: #0b7942;
+  padding: none;
+  margin: none;
+}
+
+.bar-button-default-md {
+  color: #fff;
+}
+
+img {
+  margin: 5px;
+}
+
+page-about .float-right {
+  float: right;
+}
+
+page-about .float-left {
+  float: left;
+}
+
+page-about .border-light {
+  border: lightgray 1px solid;
+}
+
+page-about .centered {
+  text-align: center;
+}
+
+page-about .padding-sm-right {
+  padding: 1opx;
+}
+
+page-about .margin-sm-left {
+  margin: 10px;
+}
+
+page-about .text-md-bold {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+page-financial .home-page-items {
+  border: none;
+  list-style: none;
+  background-color: red;
+}
+
+page-financial .text-md {
+  font-family: tahoma;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+page-financial .text-sm {
+  font-family: tahoma;
+  font-size: .7em;
+  font-weight: lighter;
+}
+
+page-financial .float-right {
+  float: right;
+}
+
+page-home .home-page-items {
+  border: none;
+  list-style: none;
+  background-color: red;
+}
+
+page-home .text-md {
+  font-family: arial;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+page-home .text-sm {
+  font-family: arial;
+  font-size: .7em;
+  font-weight: lighter;
+}
+
+page-home .float-right {
+  float: right;
+}
+
+page-non-bank .home-page-items {
+  border: none;
+  list-style: none;
+  background-color: red;
+}
+
+page-non-bank .text-md {
+  font-family: tahoma;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+page-non-bank .text-sm {
+  font-family: tahoma;
+  font-size: .7em;
+  font-weight: lighter;
+}
+
+page-non-bank .float-right {
+  float: right;
+}
+
+page-technology .home-page-items {
+  border: none;
+  list-style: none;
+  background-color: red;
+}
+
+page-technology .text-md {
+  font-family: tahoma;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+page-technology .text-sm {
+  font-family: tahoma;
+  font-size: .7em;
+  font-weight: lighter;
+}
+
+page-technology .float-right {
+  float: right;
+}
+
+page-about .float-right {
+  float: right;
+}
+
+page-about .float-left {
+  float: left;
+}
+
+page-about .border-light {
+  border: lightgray 1px solid;
+}
+
+page-about .centered {
+  text-align: center;
+}
+
+page-about .padding-sm-right {
+  padding-right: 5px;
+}
+
+page-about .text-md-bold {
+  font-size: 1em;
+  font-weight: bold;
+}

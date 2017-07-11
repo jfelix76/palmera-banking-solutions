@@ -1,3 +1,23 @@
 page-home {
+    .home-page-items {
+        border: none;
+        list-style: none;
+        background-color: red;
+    }
 
+    .text-md {
+        font-family: arial;
+        font-size: .9em;
+        font-weight: bold;
+    }
+
+    .text-sm {
+        font-family: arial;
+        font-size: .7em;
+        font-weight: lighter;
+    }
+    
+    .float-right {
+        float: right;
+    }
 }
