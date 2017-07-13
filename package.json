@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "author": "Ionic Framework",
   "engines": {
-    "node": "6.10.3"
+    "node": "6.11.1"
   },
   "homepage": "http://ionicframework.com/",
   "private": true,
