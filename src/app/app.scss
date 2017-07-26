@@ -14,16 +14,5 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
-.toolbar-background-md {
-    background: #0b7942;
-    padding: none;
-    margin: none;
-}
-
-.bar-button-default-md {
-    color: #fff;
-}
-
-img {
-    margin: 5px;
-}
+@import "../pages/home/home";
+@import "style";

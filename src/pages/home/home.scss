@@ -1,23 +1,63 @@
 page-home {
-    .home-page-items {
-        border: none;
-        list-style: none;
-        background-color: red;
-    }
 
-    .text-md {
-        font-family: arial;
-        font-size: .9em;
-        font-weight: bold;
+    .label-ios{
+        margin: 0px !important;
     }
-
-    .text-sm {
-        font-family: arial;
-        font-size: .7em;
-        font-weight: lighter;
+    .label-md{
+        margin: 0px !important;
     }
     
-    .float-right {
-        float: right;
+    .item-inner{
+        padding: 0px !important;
+        border-bottom: none !important;
     }
+
+    .list-ios{
+        margin: 0px !important;
+    }
+
+    .item {
+        padding: 0px;
+    }
+ 
+    a {
+        text-decoration: none;
+        margin: 0px;
+    }
+
+    h4 {
+        position: absolute;
+        margin-top: -71px !important;
+        margin-left: 0px;
+        color: #fff;
+        font-size: 4em !important;
+        text-shadow: 0x 0px 30px rgba(150, 150, 150, 1);
+        text-transform: uppercase;
+        opacity: 0.8;
+    }
+
+    .picture{
+        position: relative;
+        height: 170px;
+        width: 100%;
+        overflow:hidden;
+        z-index: 0;
+        img {
+            width: 100%;
+            margin-top: -20px;
+            border-style: none;
+        }
+    }
+
+    .picture:before {
+        position: absolute;
+        content: " ";
+        background: color($colors, secondary);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 400%;
+        z-index: 1;
+        opacity: 0.5;
+    }
+
 }

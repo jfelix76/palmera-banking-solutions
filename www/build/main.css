@@ -25199,18 +25199,270 @@ ion-navbar.toolbar {
   }
 }
 
-.toolbar-background-md {
-  background: #0b7942;
-  padding: none;
-  margin: none;
+page-home .label-ios {
+  margin: 0px !important;
 }
 
-.bar-button-default-md {
+page-home .label-md {
+  margin: 0px !important;
+}
+
+page-home .item-inner {
+  padding: 0px !important;
+  border-bottom: none !important;
+}
+
+page-home .list-ios {
+  margin: 0px !important;
+}
+
+page-home .item {
+  padding: 0px;
+}
+
+page-home a {
+  text-decoration: none;
+  margin: 0px;
+}
+
+page-home h4 {
+  position: absolute;
+  margin-top: -71px !important;
+  margin-left: 0px;
   color: #fff;
+  font-size: 4em !important;
+  text-shadow: 0x 0px 30px #969696;
+  text-transform: uppercase;
+  opacity: 0.8;
 }
 
-img {
-  margin: 5px;
+page-home .picture {
+  position: relative;
+  height: 170px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+page-home .picture img {
+  width: 100%;
+  margin-top: -20px;
+  border-style: none;
+}
+
+page-home .picture:before {
+  position: absolute;
+  content: " ";
+  background: #32db64;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 400%;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+h1, h2, h3, h4, p, span, ion-note, ion-col {
+  font-family: 'open_sanslight';
+}
+
+p {
+  font-size: 18px;
+}
+
+.event ion-item {
+  border: 0px !important;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-left: 10px !important;
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+.event ion-label {
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px !important;
+  padding-bottom: 10px;
+  position: absolute;
+  margin: 5px !important;
+}
+
+.event .item-inner {
+  border: 0px !important;
+}
+
+.event ion-note {
+  font-size: 14px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin-top: 30px !important;
+}
+
+.event .kategori {
+  text-transform: capitalize;
+}
+
+.event .kategori:before {
+  content: " | ";
+}
+
+.event .item-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 14px;
+}
+
+.event .item-note {
+  color: #000;
+}
+
+.event .item p {
+  color: #000;
+}
+
+.event .item-content.activated {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.event img {
+  width: 108px;
+  margin: -10px !important;
+  margin-right: 5px !important;
+  max-height: none !important;
+}
+
+.background-image {
+  background: url("../assets/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background-image::before {
+  background-color: #fff;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0.9;
+}
+
+.toolbar .toolbar-background {
+  background: #bababa !important;
+  border-color: #bababa;
+}
+
+.toolbar .toolbar-title {
+  font-family: 'open_sanslight';
+  font-size: 2rem !important;
+  font-weight: 500 !important;
+}
+
+.title-image {
+  height: 75px;
+}
+
+h1, h2, h3, h4, p, span, ion-note, ion-col {
+  font-family: 'open_sanslight';
+}
+
+p {
+  font-size: 18px;
+}
+
+.event ion-item {
+  border: 0px !important;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-left: 10px !important;
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+.event ion-label {
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px !important;
+  padding-bottom: 10px;
+  position: absolute;
+  margin: 5px !important;
+}
+
+.event .item-inner {
+  border: 0px !important;
+}
+
+.event ion-note {
+  font-size: 14px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin-top: 30px !important;
+}
+
+.event .kategori {
+  text-transform: capitalize;
+}
+
+.event .kategori:before {
+  content: " | ";
+}
+
+.event .item-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 14px;
+}
+
+.event .item-note {
+  color: #000;
+}
+
+.event .item p {
+  color: #000;
+}
+
+.event .item-content.activated {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.event img {
+  width: 108px;
+  margin: -10px !important;
+  margin-right: 5px !important;
+  max-height: none !important;
+}
+
+.background-image {
+  background: url("../assets/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background-image::before {
+  background-color: #fff;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0.9;
+}
+
+.toolbar .toolbar-background {
+  background: #bababa !important;
+  border-color: #bababa;
+}
+
+.toolbar .toolbar-title {
+  font-family: 'open_sanslight';
+  font-size: 2rem !important;
+  font-weight: 500 !important;
+}
+
+.title-image {
+  height: 75px;
 }
 
 page-about .float-right {
@@ -25264,26 +25516,66 @@ page-financial .float-right {
   float: right;
 }
 
-page-home .home-page-items {
-  border: none;
-  list-style: none;
-  background-color: red;
+page-home .label-ios {
+  margin: 0px !important;
 }
 
-page-home .text-md {
-  font-family: arial;
-  font-size: .9em;
-  font-weight: bold;
+page-home .label-md {
+  margin: 0px !important;
 }
 
-page-home .text-sm {
-  font-family: arial;
-  font-size: .7em;
-  font-weight: lighter;
+page-home .item-inner {
+  padding: 0px !important;
+  border-bottom: none !important;
 }
 
-page-home .float-right {
-  float: right;
+page-home .list-ios {
+  margin: 0px !important;
+}
+
+page-home .item {
+  padding: 0px;
+}
+
+page-home a {
+  text-decoration: none;
+  margin: 0px;
+}
+
+page-home h4 {
+  position: absolute;
+  margin-top: -71px !important;
+  margin-left: 0px;
+  color: #fff;
+  font-size: 4em !important;
+  text-shadow: 0x 0px 30px #969696;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+page-home .picture {
+  position: relative;
+  height: 170px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+page-home .picture img {
+  width: 100%;
+  margin-top: -20px;
+  border-style: none;
+}
+
+page-home .picture:before {
+  position: absolute;
+  content: " ";
+  background: #32db64;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 400%;
+  z-index: 1;
+  opacity: 0.5;
 }
 
 page-non-bank .home-page-items {
