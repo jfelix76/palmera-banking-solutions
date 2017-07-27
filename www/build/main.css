@@ -25267,12 +25267,12 @@ page-home ion-content {
   margin-top: 0px;
 }
 
-page-home ion-content .scroll-content {
-  overflow: hidden;
-}
-
 h1, h2, h3, h4, p, span, ion-note, ion-col {
   font-family: 'arial';
+}
+
+h3.alert-sub-title .text-sm {
+  font-size: 13px;
 }
 
 p {
@@ -25375,6 +25375,10 @@ p {
 
 h1, h2, h3, h4, p, span, ion-note, ion-col {
   font-family: 'arial';
+}
+
+h3.alert-sub-title .text-sm {
+  font-size: 13px;
 }
 
 p {
@@ -25634,10 +25638,6 @@ page-home .picture:before {
 
 page-home ion-content {
   margin-top: 0px;
-}
-
-page-home ion-content .scroll-content {
-  overflow: hidden;
 }
 
 page-non-bank .home-page-items {
