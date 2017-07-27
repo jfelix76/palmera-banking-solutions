@@ -42,7 +42,7 @@ page-home {
         position: relative;
         height: 160px;
         width: 100%;
-        overflow:hidden;
+        overflow: hidden;
         z-index: 0;
         img {
             width: 100%;
@@ -65,7 +65,7 @@ page-home {
     ion-content {
         margin-top: 0px;
         .scroll-content { 
-            overflow: hidden;
+            // overflow: hidden;
         }
     }
     
