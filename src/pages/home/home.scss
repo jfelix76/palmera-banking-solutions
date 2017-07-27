@@ -27,11 +27,12 @@ page-home {
 
     h4 {
         position: absolute;
-        margin-top: -51px !important;
+        margin-top: -36px !important;
         padding-left: 20px;
         margin-left: 0px;
         color: #fff;
-        font-size: 2em !important;
+        font-size: 1.5em !important;
+        font-weight: bolder;
         text-shadow: 0x 0px 30px rgba(150, 150, 150, 1);
         text-transform: uppercase;
         opacity: 0.8;
@@ -39,7 +40,7 @@ page-home {
 
     .picture{
         position: relative;
-        height: 165px;
+        height: 160px;
         width: 100%;
         overflow:hidden;
         z-index: 0;
@@ -62,10 +63,8 @@ page-home {
     }
 
     ion-content {
-        
-        margin-bottom: 0px;
-        .scroll-content {
-            padding-top: 0px;
+        margin-top: 0px;
+        .scroll-content { 
             overflow: hidden;
         }
     }

@@ -1,18 +1,27 @@
 <ion-header>
   <ion-navbar>
-    <ion-title><img src="../../assets/pbs_title.jpg"></ion-title>
+    <ion-title><img class="title-image" src="../../assets/Palmera_Bland.png"></ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Banking Technology Providers</h2>
-  <p>We specialize in working with technology companies that serve the banking industry, providing a hands-on technical approach to ensuring their products/services are compliant with BSA/AML, OFAC and CIP regulations. Often times bank technology providers do not need a full-time BSA/AML expert and Palmera offers a variety of customizable solutions. We also offer fraud detection and prevention consulting services to select technology companies.</p>
-  <p>Palmera provides the following services for bank technology providers:</p>
-  <ion-list>
-    <ion-item>Review and edit of Technical Requirements</ion-item>
-    <ion-item>AReview and edit of Functional Specifications</ion-item>
-    <ion-item>Review customer-facing documents – FAQs, user manuals, and program plans</ion-item>
-    <ion-item>Fraud detection and prevention consulting</ion-item>
-    <ion-item>On-call consulting services</ion-item>
-  </ion-list>
+<ion-content>
+  <div class="item-text-wrap">
+      <div class="picture" (click)="gotoPage('technology')">
+          <img src="assets/tech-prv.jpg" alt="AML, OFAC & fraud detection consulting">
+      </div>
+      <h4>
+        <div>Banking Technology</div>
+      </h4>
+  </div>
+  <div padding>
+    <p>We specialize in working with technology companies that serve the banking industry, providing a hands-on technical approach to ensuring their products/services are compliant with BSA/AML, OFAC and CIP regulations. Often times bank technology providers do not need a full-time BSA/AML expert and Palmera offers a variety of customizable solutions. We also offer fraud detection and prevention consulting services to select technology companies.</p>
+    <p>Palmera provides the following services for bank technology providers:</p>
+    <ion-list>
+      <ion-item>Review and edit of Technical Requirements</ion-item>
+      <ion-item>AReview and edit of Functional Specifications</ion-item>
+      <ion-item>Review customer-facing documents – FAQs, user manuals, and program plans</ion-item>
+      <ion-item>Fraud detection and prevention consulting</ion-item>
+      <ion-item>On-call consulting services</ion-item>
+    </ion-list>
+  </div>
 </ion-content>

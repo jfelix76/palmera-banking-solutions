@@ -20,4 +20,42 @@ page-technology {
     .float-right {
         float: right;
     }
+
+    h4 {
+        position: absolute;
+        margin-top: -36px !important;
+        padding-left: 20px;
+        margin-left: 0px;
+        color: #fff;
+        font-size: 1.5em !important;
+        font-weight: bolder;
+        text-shadow: 0x 0px 30px rgba(150, 150, 150, 1);
+        text-transform: uppercase;
+        opacity: 0.8;
+    }
+
+    .picture{
+        position: relative;
+        height: 160px;
+        width: 100%;
+        overflow:hidden;
+        z-index: 0;
+        img {
+            width: 100%;
+            margin-top: 0px;
+            border-style: none;
+        }
+    }
+
+    .picture:before {
+        position: absolute;
+        content: " ";
+        background: color($colors, secondary);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 400%;
+        z-index: 1;
+        opacity: 0.5;
+    }
+
 }

@@ -1,23 +1,32 @@
 <ion-header>
   <ion-navbar>
-    <ion-title><img src="../../assets/pbs_title.jpg"></ion-title>
+    <ion-title><img class="title-image" src="../../assets/Palmera_Bland.png"></ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Financial Institutions</h2>
-  <p>Regardless of risk profile, bank and credit union compliance programs can be efficiently managed while producing examiner approval. These regulations require many man hours, resources, procedures and systems.</p>
+<ion-content>
+  <div class="item-text-wrap">
+      <div class="picture" (click)="gotoPage('financial')">
+          <img src="assets/fin-inst.jpg" alt="Audits, validations, risk assessments & look-backs">
+      </div>
+      <h4>
+        <div>Financial Institutions</div>
+      </h4>
+  </div>
+  <div padding>
+    <p>Regardless of risk profile, bank and credit union compliance programs can be efficiently managed while producing examiner approval. These regulations require many man hours, resources, procedures and systems.</p>
 
-  <p>Palmera can ensure that the BSA area is not seen as just a “cost center” by executive management. Successful tactics for BSA/AML Compliance come from those who have managed this difficult operation within a banking environment.</p>
+    <p>Palmera can ensure that the BSA area is not seen as just a “cost center” by executive management. Successful tactics for BSA/AML Compliance come from those who have managed this difficult operation within a banking environment.</p>
 
-  <p>We have practical experience designing and implementing compliance programs, working through compliance deficiencies, creating work-arounds for ineffective AML monitoring systems, overcoming staffing shortages, and delivering quality results to examiners.</p>
+    <p>We have practical experience designing and implementing compliance programs, working through compliance deficiencies, creating work-arounds for ineffective AML monitoring systems, overcoming staffing shortages, and delivering quality results to examiners.</p>
 
-  <p>Palmera provides the following services for financial institutions:</p>
-  <ion-list>
-    <ion-item>BSA/AML/OFAC/USAPA Audits</ion-item>
-    <ion-item>AML System Validations</ion-item>
-    <ion-item>CTR and CIP/KYC Look-Back Reviews</ion-item>
-    <ion-item>Risk Assessments</ion-item>
-    <ion-item>AML System Efficiency Review</ion-item>
-  </ion-list>
+    <p>Palmera provides the following services for financial institutions:</p>
+    <ion-list>
+      <ion-item>BSA/AML/OFAC/USAPA Audits</ion-item>
+      <ion-item>AML System Validations</ion-item>
+      <ion-item>CTR and CIP/KYC Look-Back Reviews</ion-item>
+      <ion-item>Risk Assessments</ion-item>
+      <ion-item>AML System Efficiency Review</ion-item>
+    </ion-list>
+  </div>
 </ion-content>

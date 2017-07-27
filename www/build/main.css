@@ -25227,11 +25227,12 @@ page-home a {
 
 page-home h4 {
   position: absolute;
-  margin-top: -51px !important;
+  margin-top: -36px !important;
   padding-left: 20px;
   margin-left: 0px;
   color: #fff;
-  font-size: 2em !important;
+  font-size: 1.5em !important;
+  font-weight: bolder;
   text-shadow: 0x 0px 30px #969696;
   text-transform: uppercase;
   opacity: 0.8;
@@ -25239,7 +25240,7 @@ page-home h4 {
 
 page-home .picture {
   position: relative;
-  height: 165px;
+  height: 160px;
   width: 100%;
   overflow: hidden;
   z-index: 0;
@@ -25263,16 +25264,15 @@ page-home .picture:before {
 }
 
 page-home ion-content {
-  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 page-home ion-content .scroll-content {
-  padding-top: 0px;
   overflow: hidden;
 }
 
 h1, h2, h3, h4, p, span, ion-note, ion-col {
-  font-family: 'open_sanslight';
+  font-family: 'arial';
 }
 
 p {
@@ -25374,7 +25374,7 @@ p {
 }
 
 h1, h2, h3, h4, p, span, ion-note, ion-col {
-  font-family: 'open_sanslight';
+  font-family: 'arial';
 }
 
 p {
@@ -25526,6 +25526,44 @@ page-financial .float-right {
   float: right;
 }
 
+page-financial h4 {
+  position: absolute;
+  margin-top: -36px !important;
+  padding-left: 20px;
+  margin-left: 0px;
+  color: #fff;
+  font-size: 1.5em !important;
+  font-weight: bolder;
+  text-shadow: 0x 0px 30px #969696;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+page-financial .picture {
+  position: relative;
+  height: 160px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+page-financial .picture img {
+  width: 100%;
+  margin-top: 0px;
+  border-style: none;
+}
+
+page-financial .picture:before {
+  position: absolute;
+  content: " ";
+  background: #32db64;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 400%;
+  z-index: 1;
+  opacity: 0.5;
+}
+
 page-home .label-ios {
   margin: 0px !important;
 }
@@ -25554,11 +25592,12 @@ page-home a {
 
 page-home h4 {
   position: absolute;
-  margin-top: -51px !important;
+  margin-top: -36px !important;
   padding-left: 20px;
   margin-left: 0px;
   color: #fff;
-  font-size: 2em !important;
+  font-size: 1.5em !important;
+  font-weight: bolder;
   text-shadow: 0x 0px 30px #969696;
   text-transform: uppercase;
   opacity: 0.8;
@@ -25566,7 +25605,7 @@ page-home h4 {
 
 page-home .picture {
   position: relative;
-  height: 165px;
+  height: 160px;
   width: 100%;
   overflow: hidden;
   z-index: 0;
@@ -25590,11 +25629,10 @@ page-home .picture:before {
 }
 
 page-home ion-content {
-  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 page-home ion-content .scroll-content {
-  padding-top: 0px;
   overflow: hidden;
 }
 
@@ -25620,6 +25658,44 @@ page-non-bank .float-right {
   float: right;
 }
 
+page-non-bank h4 {
+  position: absolute;
+  margin-top: -36px !important;
+  padding-left: 20px;
+  margin-left: 0px;
+  color: #fff;
+  font-size: 1.5em !important;
+  font-weight: bolder;
+  text-shadow: 0x 0px 30px #969696;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+page-non-bank .picture {
+  position: relative;
+  height: 160px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+page-non-bank .picture img {
+  width: 100%;
+  margin-top: 0px;
+  border-style: none;
+}
+
+page-non-bank .picture:before {
+  position: absolute;
+  content: " ";
+  background: #32db64;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 400%;
+  z-index: 1;
+  opacity: 0.5;
+}
+
 page-technology .home-page-items {
   border: none;
   list-style: none;
@@ -25640,6 +25716,44 @@ page-technology .text-sm {
 
 page-technology .float-right {
   float: right;
+}
+
+page-technology h4 {
+  position: absolute;
+  margin-top: -36px !important;
+  padding-left: 20px;
+  margin-left: 0px;
+  color: #fff;
+  font-size: 1.5em !important;
+  font-weight: bolder;
+  text-shadow: 0x 0px 30px #969696;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+page-technology .picture {
+  position: relative;
+  height: 160px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+page-technology .picture img {
+  width: 100%;
+  margin-top: 0px;
+  border-style: none;
+}
+
+page-technology .picture:before {
+  position: absolute;
+  content: " ";
+  background: #32db64;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 400%;
+  z-index: 1;
+  opacity: 0.5;
 }
 
 page-about .float-right {

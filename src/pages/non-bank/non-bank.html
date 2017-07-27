@@ -1,19 +1,28 @@
 <ion-header>
   <ion-navbar>
-    <ion-title><img src="../../assets/pbs_title.jpg"></ion-title>
+    <ion-title><img class="title-image" src="../../assets/Palmera_Bland.png"></ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Non-Bank Organizations</h2>
-  <p>Non-bank financial institutions, such as money service businesses, non-bank mortgage lenders and insurance companies are required to comply with AML and OFAC laws. Palmera specializes in creating programs that are customized to meet the various operational needs of the organization.</p>
+<ion-content>
+  <div class="item-text-wrap">
+      <div class="picture" (click)="gotoPage('non-bank')">
+          <img src="assets/non-bank.jpg" alt="Custom AML/OFAC Programs, audits, & training">
+      </div>
+      <h4>
+        <div>Non-Bank Organizations</div>
+      </h4>
+  </div>
+  <div padding>
+    <p>Non-bank financial institutions, such as money service businesses, non-bank mortgage lenders and insurance companies are required to comply with AML and OFAC laws. Palmera specializes in creating programs that are customized to meet the various operational needs of the organization.</p>
 
-  <p>Palmera provides the following services for non-bank financial institutions:</p>
+    <p>Palmera provides the following services for non-bank financial institutions:</p>
 
-  <ion-list>
-    <ion-item>Creation and Implementation of AML/OFAC compliance programs</ion-item>
-    <ion-item>Customized Training</ion-item>
-    <ion-item>Auditing AML/OFAC Compliance Programs</ion-item>
-    <ion-item>On-call Consulting Services</ion-item>
-  </ion-list>
+    <ion-list>
+      <ion-item>Creation and Implementation of AML/OFAC compliance programs</ion-item>
+      <ion-item>Customized Training</ion-item>
+      <ion-item>Auditing AML/OFAC Compliance Programs</ion-item>
+      <ion-item>On-call Consulting Services</ion-item>
+    </ion-list>
+  </div>
 </ion-content>

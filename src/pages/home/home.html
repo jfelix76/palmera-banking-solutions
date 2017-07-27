@@ -3,15 +3,10 @@
     <ion-title><img class="title-image" src="../../assets/Palmera_Bland.png"></ion-title>
   </ion-navbar>
 </ion-header>
+
 <ion-content>
   <ion-list>
     <ion-item class="item-text-wrap">
-      <!--<ion-icon name="md-home" class="home-page-icons"></ion-icon>
-      <div >
-        <ion-icon name="ios-arrow-forward-outline" class="float-right"></ion-icon>
-        <div class="text-md">Financial Institutions</div>
-        <div class="text-sm">Audits, validations, risk assessments & look-backs</div>
-      </div>-->
       <div class="picture" (click)="gotoPage('financial')">
           <img src="assets/fin-inst.jpg" alt="Audits, validations, risk assessments & look-backs">
       </div>
@@ -21,12 +16,6 @@
     </ion-item>
 
     <ion-item class="item-text-wrap">
-      <!--<ion-icon name="md-laptop" class="home-page-icons"></ion-icon>
-      <div (click)="gotoPage('technology')">
-        <ion-icon name="ios-arrow-forward-outline" class="float-right"></ion-icon>
-        <div class="text-md">Bank Technology Providers</div>
-        <div class="text-sm">AML, OFAC & fraud detection consulting</div>
-      </div>-->
       <div class="picture" (click)="gotoPage('technology')">
           <img src="assets/tech-prv.jpg" alt="AML, OFAC & fraud detection consulting">
       </div>
@@ -36,13 +25,7 @@
     </ion-item>
 
     <ion-item class="item-text-wrap">
-      <!--<ion-icon name="md-cash" class="home-page-icons"></ion-icon>
-      <div (click)="gotoPage('non-bank')">
-        <ion-icon name="ios-arrow-forward-outline" class="float-right"></ion-icon>
-        <div class="text-md">Non-Bank Organizations</div>
-        <div class="text-sm">Custom AML/OFAC Programs, audits, & training</div>
-      </div>-->
-      <div class="picture">
+      <div class="picture" (click)="gotoPage('non-bank')">
           <img src="assets/non-bank.jpg" alt="Custom AML/OFAC Programs, audits, & training">
       </div>
       <h4>
