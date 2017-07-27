@@ -25227,10 +25227,11 @@ page-home a {
 
 page-home h4 {
   position: absolute;
-  margin-top: -71px !important;
+  margin-top: -51px !important;
+  padding-left: 20px;
   margin-left: 0px;
   color: #fff;
-  font-size: 4em !important;
+  font-size: 2em !important;
   text-shadow: 0x 0px 30px #969696;
   text-transform: uppercase;
   opacity: 0.8;
@@ -25238,7 +25239,7 @@ page-home h4 {
 
 page-home .picture {
   position: relative;
-  height: 170px;
+  height: 165px;
   width: 100%;
   overflow: hidden;
   z-index: 0;
@@ -25246,7 +25247,7 @@ page-home .picture {
 
 page-home .picture img {
   width: 100%;
-  margin-top: -20px;
+  margin-top: 0px;
   border-style: none;
 }
 
@@ -25259,6 +25260,15 @@ page-home .picture:before {
   height: 400%;
   z-index: 1;
   opacity: 0.5;
+}
+
+page-home ion-content {
+  margin-bottom: 0px;
+}
+
+page-home ion-content .scroll-content {
+  padding-top: 0px;
+  overflow: hidden;
 }
 
 h1, h2, h3, h4, p, span, ion-note, ion-col {
@@ -25307,7 +25317,7 @@ p {
 
 .event .item-content {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 14px;
+  padding: 0px;
 }
 
 .event .item-note {
@@ -25409,7 +25419,7 @@ p {
 
 .event .item-content {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 14px;
+  padding: 0px;
 }
 
 .event .item-note {
@@ -25544,10 +25554,11 @@ page-home a {
 
 page-home h4 {
   position: absolute;
-  margin-top: -71px !important;
+  margin-top: -51px !important;
+  padding-left: 20px;
   margin-left: 0px;
   color: #fff;
-  font-size: 4em !important;
+  font-size: 2em !important;
   text-shadow: 0x 0px 30px #969696;
   text-transform: uppercase;
   opacity: 0.8;
@@ -25555,7 +25566,7 @@ page-home h4 {
 
 page-home .picture {
   position: relative;
-  height: 170px;
+  height: 165px;
   width: 100%;
   overflow: hidden;
   z-index: 0;
@@ -25563,7 +25574,7 @@ page-home .picture {
 
 page-home .picture img {
   width: 100%;
-  margin-top: -20px;
+  margin-top: 0px;
   border-style: none;
 }
 
@@ -25576,6 +25587,15 @@ page-home .picture:before {
   height: 400%;
   z-index: 1;
   opacity: 0.5;
+}
+
+page-home ion-content {
+  margin-bottom: 0px;
+}
+
+page-home ion-content .scroll-content {
+  padding-top: 0px;
+  overflow: hidden;
 }
 
 page-non-bank .home-page-items {
