@@ -25491,8 +25491,8 @@ page-about .centered {
   text-align: center;
 }
 
-page-about .padding-sm-right {
-  padding: 1opx;
+page-about .margin-sm-right {
+  margin: 10px;
 }
 
 page-about .margin-sm-left {
@@ -25501,6 +25501,10 @@ page-about .margin-sm-left {
 
 page-about .text-md-bold {
   font-size: 1em;
+  font-weight: bold;
+}
+
+page-about .bold {
   font-weight: bold;
 }
 
