@@ -25756,27 +25756,31 @@ page-technology .picture:before {
   opacity: 0.5;
 }
 
-page-about .float-right {
+page-testimonials .float-right {
   float: right;
 }
 
-page-about .float-left {
+page-testimonials .float-left {
   float: left;
 }
 
-page-about .border-light {
+page-testimonials .border-light {
   border: lightgray 1px solid;
 }
 
-page-about .centered {
+page-testimonials .centered {
   text-align: center;
 }
 
-page-about .padding-sm-right {
+page-testimonials .padding-sm-right {
   padding-right: 5px;
 }
 
-page-about .text-md-bold {
+page-testimonials .text-md-bold {
   font-size: 1em;
   font-weight: bold;
+}
+
+page-testimonials ion-list ion-item.mouse-over {
+  cursor: pointer;
 }

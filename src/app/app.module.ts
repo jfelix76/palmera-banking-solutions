@@ -2,6 +2,7 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
+import { HttpModule } from '@angular/http';
 
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
@@ -14,7 +15,7 @@ import { FinancialPage } from '../pages/financial/financial';
 import { TechnologyPage } from '../pages/technology/technology';
 import { NonBankPage } from '../pages/non-bank/non-bank';
 import { TestimonialsPage } from '../pages/testimonials/testimonials';
-
+import { TestimonialProvider } from '../providers/testimonial/testimonial';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { TestimonialsPage } from '../pages/testimonials/testimonials';
     TestimonialsPage
   ],
   imports: [
+    HttpModule,
     BrowserModule,
     IonicModule.forRoot(MyApp)
   ],
@@ -49,7 +51,8 @@ import { TestimonialsPage } from '../pages/testimonials/testimonials';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    TestimonialProvider
   ]
 })
 export class AppModule {}

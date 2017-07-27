@@ -1,4 +1,4 @@
-page-about {
+page-testimonials {
     .float-right {
         float: right;
     }
@@ -18,4 +18,10 @@ page-about {
         font-size: 1em;
         font-weight: bold;
     }
+    ion-list {
+        ion-item.mouse-over {
+            cursor: pointer;
+        }
+    }
+    
 }
