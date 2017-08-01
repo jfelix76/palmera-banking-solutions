@@ -25377,8 +25377,11 @@ ion-title {
 }
 
 ion-title img {
-  padding-top: 10px;
-  padding-bottom: 5px;
+  -webkit-align-content: left;
+  -ms-flex-line-pack: left;
+  align-content: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
   margin: 0 5px;
 }
 
@@ -25492,8 +25495,11 @@ ion-title {
 }
 
 ion-title img {
-  padding-top: 10px;
-  padding-bottom: 5px;
+  -webkit-align-content: left;
+  -ms-flex-line-pack: left;
+  align-content: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
   margin: 0 5px;
 }
 
