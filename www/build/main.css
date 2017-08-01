@@ -25369,8 +25369,15 @@ p {
   font-weight: 500 !important;
 }
 
-.title-image {
-  height: 75px;
+ion-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ion-title img {
+  margin: 0 5px;
 }
 
 h1, h2, h3, h4, p, span, ion-note, ion-col {
@@ -25475,8 +25482,15 @@ p {
   font-weight: 500 !important;
 }
 
-.title-image {
-  height: 75px;
+ion-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ion-title img {
+  margin: 0 5px;
 }
 
 page-about .float-right {
