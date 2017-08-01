@@ -25377,6 +25377,8 @@ ion-title {
 }
 
 ion-title img {
+  padding-top: 10px;
+  padding-bottom: 5px;
   margin: 0 5px;
 }
 
@@ -25490,6 +25492,8 @@ ion-title {
 }
 
 ion-title img {
+  padding-top: 10px;
+  padding-bottom: 5px;
   margin: 0 5px;
 }
 

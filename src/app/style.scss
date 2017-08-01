@@ -108,9 +108,13 @@ p{
     }
 
 }
+
 ion-title {
     display: flex;
 }
+
 ion-title img {
+    padding-top: 10px;
+    padding-bottom: 5px;
     margin: 0 5px;
 }
